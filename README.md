@@ -94,13 +94,13 @@ Add method usage instructions in ReadMe.md
 * function dropUser($id) * arguments is userId; returns return code of the operation; 
 * function shareSubmissionFolder($folderId, $shared_with) * arguments are folderId and array of userId; returns return code of the operation; 
 
--- Added proxy support
+-- Added proxy support:
 When instatiating, you can now pass a proxy object in order to manage phpxmlrpc communication via proxy. 
 * new \bsobbe\ithenticate\Ithenticate($user, $pass, $proxyObject) * where $proxyObject is 
 * $proxyObject->proxyName (string) *
 * $proxyObject->proxyPort (integer) *
 
--- Modified requirements for phpxmlrpc/phpxmlrpc
+-- Modified requirements for phpxmlrpc/phpxmlrpc:
 Changed * phpxmlrpc/phpxmlrpc": "4.0" * to * "phpxmlrpc/phpxmlrpc": "*" *
 In this way the last version of phpxmlrpc/phpxmlrpc is taken and php8 support is guaranteed.
 

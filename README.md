@@ -1,25 +1,26 @@
 # PHP [iThenticate](http://www.ithenticate.com/)
 A library to use **iThenticate** API easier and faster, to check and prevent plagiarism.
+This is a fork from bsobbe/ithenticate
 
 ### Installation
 You can install via **composer** package manager with the following command:
 
 ```
-composer.phar require bsobbe/ithenticate "*"
+composer.phar require joelfan/ithenticate "*"
 ```
 
 Or add the following to your **composer.json** file:
 
 ```
 "require": {
-        "bsobbe/ithenticate": "*"
+        "joelfan/ithenticate": "*"
 },
 ```
 
 ### Usage
 Once the installation is completed, simply use the library with:
 ```php
-use bsobbe\ithenticate\Ithenticate;
+use joelfan\ithenticate\Ithenticate;
 ```
 You will be able to use the library by creating instance of the ```Ithenticate``` class, make sure you pass your iThenticate API **username** and **password** to the constructor (You might need SSL to connect to the API):
 ```php

@@ -1,5 +1,5 @@
 {
-    "name": "joelfan/ithenticatewithusermanagement",
+    "name": "bsobbe/ithenticate",
     "description": "A library to use Ithenticate API easier and faster, to check and prevent plagiarism",
     "type": "php-library",
     "keywords": ["php", "ithenticate", "crossref", "plagiarism", "plagiarism-prevention", "library", "api"],
@@ -8,18 +8,14 @@
         {
             "name": "Sobhan Bagheri (A.K.A sobbe)",
             "email": "b.sobhanbagheri@gmail.com"
-        },
-        {
-            "name": "joelfan",
-            "email": "dario.basset@gmail.com"
         }
     ],
     "require": {
-        "phpxmlrpc/phpxmlrpc": "4.6"
+        "phpxmlrpc/phpxmlrpc": "*"
     },
     "autoload": {
         "psr-4": {
-            "joelfan\\ithenticatewithusermanagement\\": ""
+            "bsobbe\\ithenticate\\": ""
         }
     }
 }

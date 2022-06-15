@@ -26,6 +26,14 @@ You will be able to use the library by creating instance of the ```Ithenticate``
 ```php
 $ithenticate = new Ithenticate("Your username", "Your password");
 ```
+Or:
+```php
+$ithenticate = new Ithenticate("Your username", "Your password", $proxyObject);
+// where 
+// * $proxyObject->proxyName (string) *
+// * $proxyObject->proxyPort (integer) *
+```
+
 After all simply call each method you want to use with passing the required parameters, and the library will take care of the rest.
 
 I strongly suggest to read the [iThenticate API Guide](http://www.ithenticate.com/hs-fs/hub/92785/file-1383985272-pdf/iTh_documentation/iThenticate_API_Manual.pdf?t=1488585417195) before using the library and its methods.

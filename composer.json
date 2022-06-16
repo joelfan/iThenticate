@@ -15,7 +15,7 @@
         }
     ],
     "require": {
-        "phpxmlrpc/phpxmlrpc": "*"
+        "phpxmlrpc/phpxmlrpc": "4.7"
     },
     "autoload": {
         "psr-4": {

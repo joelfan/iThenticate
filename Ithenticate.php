@@ -1,6 +1,6 @@
 <?php
 
-namespace bsobbe\ithenticate;
+namespace joelfan\ithenticate;
 
 /**
  * Using needed classes from PhpXmlRpc library.

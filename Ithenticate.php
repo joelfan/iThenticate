@@ -38,8 +38,8 @@ class Ithenticate
         $this->setPassword($password);
         $this->setSid($this->login());
 		if (isset($proxyObject)) {
-			$this->$proxyName = $proxyObject->proxyName;
-			$this->$proxyPort = $proxyObject->proxyPort;
+			$this->proxyName = $proxyObject->proxyName;
+			$this->proxyPort = $proxyObject->proxyPort;
 		} else 
 			$this->$proxyName = null;
     }
